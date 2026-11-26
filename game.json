@@ -1,0 +1,68 @@
+{
+  "$schema": "https://raw.githubusercontent.com/pewplay/pewplay/main/schema/game.schema.json",
+  "title": "Mahjong Solitaire",
+  "description": "Match pairs of free tiles and clear the board in three layouts, with hints, undo and shuffle. Free Mahjong Solitaire to play in your browser.",
+  "about": "Mahjong Solitaire is the relaxing tile-matching puzzle played with a full set of 144 tiles. The tiles are stacked in a layered layout, and your goal is to remove all of them in pairs. You can only take a tile that is free: nothing may sit on top of it, and at least its left or right side must be open.\n\nChoose between three layouts: the classic Turtle with 144 tiles, a compact Pyramid and a walled Fortress. Every deal is built so that it can always be solved, but the order you pick still matters, so think before you match. Hints, undo and shuffle are there when you need them, at the cost of a small time penalty.\n\nOn a phone held upright the board turns to fit the screen, keeping the tiles large and easy to tap.",
+  "howToPlay": "Tap two free tiles with the same picture to remove them. A tile is free when no tile covers it and its left or right side is open. Flower tiles match any flower and season tiles match any season. Clear every tile to win; if no moves are left, shuffle or undo.",
+  "controls": [
+    {
+      "input": "Click / Tap",
+      "action": "Select a tile"
+    },
+    {
+      "input": "H",
+      "action": "Show a hint (+15 seconds)"
+    },
+    {
+      "input": "Z / Backspace",
+      "action": "Undo the last match"
+    },
+    {
+      "input": "S",
+      "action": "Shuffle the remaining tiles (+30 seconds)"
+    },
+    {
+      "input": "Esc / P",
+      "action": "Pause"
+    }
+  ],
+  "tips": [
+    "Free the tall stacks and the long rows first: they block the most tiles.",
+    "If three matching tiles are free, take the pair that unlocks more new tiles.",
+    "When all four copies of a tile are free at once, remove them right away.",
+    "Darker tiles are blocked, so you can see the free ones at a glance."
+  ],
+  "faq": [
+    {
+      "question": "Is Mahjong Solitaire free to play?",
+      "answer": "Yes. It is completely free and runs in your browser, with no download or account."
+    },
+    {
+      "question": "Can I play on a phone or tablet?",
+      "answer": "Yes. Tap the tiles to match them. In portrait the layout rotates to fit the screen, so the tiles stay large; landscape is great on tablets."
+    },
+    {
+      "question": "Can every game be solved?",
+      "answer": "Yes. Each deal is generated backwards from a finished board, so a solution always exists. If you get stuck, use undo or shuffle."
+    }
+  ],
+  "category": "Puzzle",
+  "tags": [
+    "mahjong",
+    "tiles",
+    "matching",
+    "solitaire",
+    "relaxing"
+  ],
+  "author": "PewPlay",
+  "playMode": "SinglePlayer",
+  "orientation": "any",
+  "cover": "cover.png",
+  "screenshots": [
+    "screenshots/1.png",
+    "screenshots/2.png",
+    "screenshots/3.png"
+  ],
+  "added": "2026-11-26",
+  "draft": false
+}
